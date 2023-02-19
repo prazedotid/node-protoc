@@ -1,5 +1,5 @@
 {
-  "name": "protoc",
+  "name": "@pingghost/protoc",
   "version": "1.0.2",
   "description": "A tool for converting proto buffers (.proto) files into javascript files usable in Closure Compiler with Closure Library.",
   "main": "index.js",
