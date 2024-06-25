@@ -1,6 +1,6 @@
 {
-  "name": "@pingghost/protoc",
-  "version": "1.0.2",
+  "name": "@prazedotid/protoc",
+  "version": "1.0.1",
   "description": "A tool for converting proto buffers (.proto) files into javascript files usable in Closure Compiler with Closure Library.",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,19 @@
     "test": "node scripts/test.js"
   },
   "bin": {
-    "protoc": "./bin/protoc"
+    "protoc": "./protoc/bin/protoc"
   },
   "author": "Amir Saadallah <amirs-m-s@live.com>",
+  "contributors": [
+    {
+      "name": "Galih Prastian",
+      "email": "galihpras33@gmail.com"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amirping/node-protoc.git"
+    "url": "git+https://github.com/prazedotid/node-protoc.git"
   },
   "dependencies": {
     "glob": "^7.2.3",
